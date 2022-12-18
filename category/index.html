@@ -16,9 +16,34 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <section class="header">
+      <div class="container-fluid">
+        <div
+          class="d-flex justify-content-center logo align-content-center flex-wrap"
+        >
+          <a href="">
+            <!-- //TODO add max width and min height media query -->
+            <img src="/assets/img/block-shop-logo.png" alt="" />
+          </a>
+        </div>
+        <div class="menu w-100 d-flex flex-wrap">
+          <div class="filter w-25">Filter</div>
+          <div class="nav text-center">
+            <ul>
+              <li>The shop</li>
+              <li>Clothing</li>
+              <li>Shoes</li>
+              <li>Accessories</li>
+            </ul>
+          </div>
+          <div class="sort w-25">Sort by Latest</div>
+        </div>
+      </div>
+    </section>
     <header class="text-center">
       <p class="header-description">
         Choose to have the shop catalog display products or categories
@@ -101,5 +126,29 @@
         </div>
       </div>
     </div>
+    <section class="footer">
+      <div class="container w-100">
+        <div class="footer-content row">
+          <div class="col-xl-6 col-12">
+            <div
+              class="footer-infomation d-flex justify-content-center d-xl-block"
+            >
+              © 2022 — Built with Block Shop & WooCommerce.
+            </div>
+          </div>
+          <div class="col-xl-6 col-12">
+            <div
+              class="features d-flex justify-content-center justify-content-xl-end"
+            >
+              <ul>
+                <li>Theme Documentation</li>
+                <li>Support</li>
+                <li>Purchase Theme $59</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
